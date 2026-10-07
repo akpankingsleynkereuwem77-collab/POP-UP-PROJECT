@@ -1,0 +1,165 @@
+
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* The whole page */
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f2f2f2;
+
+    font-family: Arial, sans-serif;
+
+    padding: 20px;
+}
+
+
+/* Form box */
+.form-container {
+    width: 100%;
+    max-width: 450px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading */
+h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+
+/* Small text below heading */
+.subtitle {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 25px;
+}
+
+
+/* Each input section */
+.form-group {
+    margin-bottom: 18px;
+}
+
+
+/* Labels */
+label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+}
+
+
+/* Input boxes */
+input {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+/* When an input is clicked */
+input:focus {
+    border-color: #333;
+}
+
+
+/* Error messages */
+span {
+    display: block;
+
+    color: red;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+}
+
+
+/* Button */
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #111;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* Button when mouse is over it */
+button:hover {
+    background-color: #333;
+}
+
+
+/* Success message */
+#successMessage {
+    text-align: center;
+
+    color: green;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+}
+
+
+/* ------------------------- */
+/* RESPONSIVE DESIGN */
+/* ------------------------- */
+
+@media (max-width: 600px) {
+
+    .form-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+}
+
