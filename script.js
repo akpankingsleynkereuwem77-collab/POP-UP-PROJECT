@@ -1,4 +1,3 @@
-
 // Get the form
 const form = document.getElementById("signupForm");
 
